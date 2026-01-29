@@ -2,6 +2,8 @@ package program;
 
 import maths.Addition;
 import maths.Division;
+import maths.geometry.Square;
+import maths.geometry.Triangle;
 import bank.CreditCard;
 import bank.DebitCard;
 import ecommerce.Product;
@@ -35,6 +37,13 @@ public class Program{
 		order.orderOperation1();	
 		order.orderOperation2();
 		
+		Triangle triangle = new Triangle();
+		triangle.triangleOperation1();
+		triangle.triangleOperation2();
+		
+		Square square = new Square();
+		square.squareOperation1();
+		square.squareOperation2();
 	}
 	
 }
